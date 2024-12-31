@@ -59,6 +59,6 @@ else:
     print("Please enter a valid input")
         </pre>
         <h3>Explaination</h3>
-        <p>This Python code defines a function named calculate_factorial that calculates the factorial of a given non-negative integer. The function employs recursion, a technique where a function calls itself to solve a smaller version of the same problem. If the input number is 0, the function returns 1, as the factorial of 0 is defined as 1. Otherwise, the function recursively calls itself with the input number decreased by 1 and multiplies the result of this recursive call with the original input number. This process continues until the base case (input number being 0) is reached, ultimately returning the factorial of the given number</p>
+        <p>This program performs encryption and decryption of a string based on user input. If the user selects encryption (input 1), the program modifies the string by either rotating its characters and appending random lowercase letters if the length is 3 or more, or reversing the string and appending random lowercase letters if the length is less than 3. If the user selects decryption (input 2), the program reverses the encryption process by removing the appended random letters and rotating the characters back to their original positions for strings of length 3 or more, or simply reversing the string for those with less than 3 characters. If an invalid input is provided, the program asks for a valid input.</p>
     </body>
 </html>
