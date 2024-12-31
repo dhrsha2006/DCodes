@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DCodes
+        </title>
+    </head>
+    <body>
+        <h1>DCodes</h1>
+        <h3>Projects:</h3>
+        <ol>
+            <li><a href=C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Index.html text="Red">Calculator</a></li>
+            <li><a href="C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Snake.html" text="red">Snake Game</a></li>
+        </ol>
+    </body>
+</html>
