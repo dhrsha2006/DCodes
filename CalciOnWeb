@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CODES</title>
+        <title>Calculator</title>
     </head>
-    <body>
-        <h1>CODES</h1>
-        <h2>Calculator on Python</h2>
+    <body bgcolor="WHITE" text="BLACK" >
+        <h1>Calculator on Python</h1>
         <h3> Features</h3>
             <ol>
                <li>It can perform basic calculations on two operand</li>
                <li>It can perform some other operations such as calculating the square, square root, floor value, ceiling value etc.</li>
                <li>It can also plot a graph</li>
             </ol>
+       <h3>Code</h3>
         <pre>
-            import time
+import time
 import math
 import matplotlib.pyplot as plt
 try:
@@ -158,5 +158,25 @@ else:
  time=time.strftime("%H:%M")
  print(time)
         </pre>
+        <h3>Explanation</h3>
+        <p> 
+              This Python code provides a calculator and graphing tool. It first allows the user to choose between three functionalities: simple calculation, advanced calculation, or graph plotting.
+
+For simple calculation, the user can perform basic arithmetic operations like addition, subtraction, multiplication, division (both quotient and remainder), on two numbers.
+
+In advanced calculation, the user can enter a number and perform various operations on it, including squaring, cubing, finding the modulus, calculating the inverse, and finding the square root, cube root, ceiling, and floor. Additionally, it can check if a number is prime, convert between degrees and radians, and find trigonometric values like sine, cosine, tangent, cotangent, secant, and cosecant.
+
+For graph plotting, the user can choose between four types of graphs: line graph, histogram, bar graph, and pie chart. Line graphs require entering multiple data points (x and y coordinates) to create a line connecting them. Histograms and bar graphs require data points representing the frequency or value on the y-axis. Bar graphs additionally require labels for the x-axis categories. Pie charts require data points representing the portion of a whole for each category.
+
+The code incorporates error handling to catch invalid inputs and provides informative messages to the user. Finally, it displays the current time after the user finishes using the calculator or graph plotter.
+
+              </p>
+              <h3>
+                     Audio Explanation
+              </h3>
+              <audio controls>
+                     <source src="C:\Users\Dhruv\Downloads\Untitled notebook.wav" type="audio/mpeg">
+                     Click here
+                 </audio>
     </body>
 </html>
