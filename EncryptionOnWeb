@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encryption-Decryption</title>
+    </head>
+    <body>
+        <h1>Encryption-Decryption on Python</h1>
+        <h3> Features</h3>
+            <ol>
+               <li>It can convert a word into a specific code</li>
+               <li>It can convert a code into a word</li>
+            </ol>
+            <h3>Code</h3>
+        <pre>
+import random
+inp=int(input("Please select 1. for Encryption and 2. for Decryption"))
+if inp==1:
+    i=input("Please enter a string")
+    li=list(i)
+    if(len(li)>=3):
+            s=li[0]
+            li.pop(0)
+            li.append(s)
+            for i in range(0, 4):
+                x = random.randint(97, 122)
+                char = chr(x)
+                li.insert(i,char)
+            joined="".join(li)
+            print(joined)
+    else:
+            li.reverse()
+            for i in range(0, 4):
+                x = random.randint(97, 122)
+                char = chr(x)
+                li.insert(i,char)
+            joined="".join(li)
+            print(joined)
+if inp==2:
+        i=input("Please enter a string")
+        li=list(i)
+        if(len(li)>=3):
+            for i in range(0,4):
+                li.remove(li[0])
+            s=li[len(li)-1]
+            li.pop(len(li)-1)
+            li.insert(0,s)
+            joined="".join(li)
+            print(joined)
+        if(len(li)<3):
+            try:
+            for i in range(0,4):
+                li.pop(0)
+            li.reverse()
+            joined="".join(li)
+            print(joined)
+            except IndexError:
+                print("")
+else:
+    print("Please enter a valid input")
+        </pre>
+        <h3>Explaination</h3>
+        <p>This Python code defines a function named calculate_factorial that calculates the factorial of a given non-negative integer. The function employs recursion, a technique where a function calls itself to solve a smaller version of the same problem. If the input number is 0, the function returns 1, as the factorial of 0 is defined as 1. Otherwise, the function recursively calls itself with the input number decreased by 1 and multiplies the result of this recursive call with the original input number. This process continues until the base case (input number being 0) is reached, ultimately returning the factorial of the given number</p>
+    </body>
+</html>
