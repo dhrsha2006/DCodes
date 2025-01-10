@@ -101,14 +101,14 @@ pygame.quit()
 quit()
         </pre>
         <h3>Image</h3>
-        <img src="C:\Users\Dhruv\OneDrive\Pictures\Screenshots\Screenshot 2024-12-29 135921.png" alt="Game Play ScreenShot" width="500px" height="500px">
+        <img src="PICTURE" alt="Game Play ScreenShot" width="500px" height="500px">
         <h3>Explaination</h3>
         <p>This Python code implements a simple snake game using the Pygame library. It begins by importing necessary modules: pygame for game development and random for generating random numbers. The game window is created with a specified width and height. Basic colors like white, red, black, and yellow are defined for use throughout the game.The code initializes variables to control the game loop, track the score, and store the initial positions and sizes of the snake and food. It also sets the initial movement velocity of the snake. A clock object is created to regulate the game's frame rate.The main game loop starts. Within the loop, it handles user input events, primarily keyboard presses for controlling the snake's movement. The snake's position is updated based on its current velocity. The code checks for collisions between the snake and the food. If a collision occurs, the score is incremented, the food is repositioned randomly, and the snake's size is increased.The game window is filled with the background color (black). The current score is displayed on the screen using the created font object. The snake and food are drawn on the game window as rectangles and circles, respectively. The game window is updated to display the changes, and the frame rate is controlled using the clock object. The game loop continues until the user quits the game. Once the game is over, the Pygame library is quit. This code provides a basic framework for a snake game. It can be further enhanced by adding features like game over conditions, sound effects, and more challenging gameplay mechanics.</p>
      <h3>
      Audio Explanation
      </h3>
      <audio controls>
-            <source src="C:\Users\Dhruv\Downloads\Python Snake Game Implementation.wav" type="audio/mpeg">
+            <source src="SOURCE" type="audio/mpeg">
             Click here
         </audio>
     </body>
