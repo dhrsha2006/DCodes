@@ -29,7 +29,45 @@
             <label for="Date">---Question---</label>
             <input type="date" id="date" name="date" >
         </div>
-        
+        <!-- For password input -->
+        <div>
+            <label for="password">---Question---</label>
+            <input type="password" id="password" name="password" >
+        </div>
+        <!-- For email input -->
+        <div>
+            <label for="email">---Question---</label>
+            <input type="email" id="email" name="email" >
+        </div>
+        <!-- For number input -->
+        <div>
+            <label for="number">---Question---</label>
+            <input type="number" id="number" name="number" >
+        </div>
+        <!-- For checkbox input -->
+        <div>
+            <label for="checkbox">---Question---</label>
+            <input type="checkbox" id="checkbox" name="checkbox" >
+            <label for="checkbox">---Option---</label>
+            <input type="checkbox" id="checkbox" name="checkbox" >
+        </div>
+        <!-- For file input -->
+        <div>
+            <label for="file">---Question---</label>
+            <input type="file" id="file" name="file" >
+        </div>
+        <!-- For submit button -->
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <!-- For reset button -->
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+        <!-- For button -->
+        <div>
+            <button type="button">---Button---</button>
+        </div>
     </form>
 </body>
 </html>
