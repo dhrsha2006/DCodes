@@ -67,5 +67,9 @@
 </div>
         </form>
 </main>
+<footer>
+    <p>&copy; 2025-26 Recruitment Team. All rights reserved.</p>
+    <p>For any queries, contact us <a href="mailto:something@gmail.com">here</a></p>
+</footer>
 </body>
 </html>
