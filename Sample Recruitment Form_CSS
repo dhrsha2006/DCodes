@@ -32,3 +32,8 @@ input[type="submit"] {
 select{
     color:  rgb(43, 35, 79); /* Blue text */
 }
+footer{
+    background-color: rgb(1, 0, 6);
+    padding: 20px;
+    margin-top: 20px;
+}
