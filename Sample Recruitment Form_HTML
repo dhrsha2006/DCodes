@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECRUITMENT</title>
+</head>
+<body>
+    <link rel="stylesheet" href="CopyOfForm.css">
+    <header>
+        <h1> RECRUITMENT FORM 2025-26
+</h1>
+<img src="Recruiters (1).png" alt="Logo" class="logo">
+        <h2>Welcome to the Recruitment Process</h2>
+        <p>Please fill out the form below to apply for the recruitment process.</p>
+        <p>All fields are mandatory.</p>
+    </header>
+<main>
+    <form action="pass">
+        <div>
+            
+            <span>
+                <label for="First Name">First Name</label>
+                <input type="text" id="First Name" name="First Name" placeholder="Jane" required>
+            </span>
+            <span>
+                <label for="Last Name">Last Name</label>
+                <input type="text" id="Last Name" name="Last Name" placeholder="Doe" required>
+            </span>
+        </div>
+        <div>
+            <label for="Email">College Email ID</label>
+            <input type="email" id="Email" name="Email" placeholder="jane.doe@gmail.com" required>
+        </div>
+        <div>
+            <label for="Roll No.">Roll No.</label>
+            <input type="text" id="Roll No." name="Roll No." placeholder="123456789" required>
+        </div>
+        <div>
+            <label for="Year">Current Year of Study</label>
+            <select id="Year" name="Year" required>
+                <option value="" disabled selected>Select your year</option>
+                <option value="FE">First Year</option>
+                <option value="SE">Second Year</option>
+                <option value="TE">Third Year</option>
+                <option value="BE">Final Year</option>
+            </select>
+        </div>
+        <div>
+            <label for="Branch">Branch</label>
+            <select id="Branch" name="Branch" required>
+                <option value="" disabled selected>Select your branch</option>
+                <option value="IT">Information Technology</option>
+                <option value="COMPS">Computer Science</option>
+                <option value="EXTC">Electronics and Telecommunication</option>
+                <option value="ENTC">Electronics and Computer Science</option>
+                <option value="MECH">Mechanical Engineering</option>
+            </select>
+        </div>
+<div>
+    <label for="Phone No.">Phone Number</label>
+    <input type="tel" id="Phone No." name="Phone No." placeholder="9876543210" required>
+</div>
+<div>
+    <label for="Submit"></label>
+    <input type="submit" id="Submit" name="Submit" value="Submit">
+</div>
+        </form>
+</main>
+</body>
+</html>
