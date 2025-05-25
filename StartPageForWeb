@@ -2,15 +2,53 @@
 <html>
     <head>
         <title>
-            DCodes
+           DCODES
         </title>
     </head>
+    <style>
+        body{
+            background-color: #120052;
+            color: white;
+            font-style: newspaper;
+        }
+        footer {
+            background-color: #0d0032;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 99%;
+            position: bottom;
+            /* bottom: 500px; */
+        }
+        a:visited {
+            color: red;
+        }
+        a:link {
+            color: white;
+        }
+    </style>
     <body>
-        <h1>DCodes</h1>
-        <h3>Projects:</h3>
-        <ol>
-            <li><a href=C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Index.html text="Red">Calculator</a></li>
-            <li><a href="C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Snake.html" text="red">Snake Game</a></li>
-        </ol>
+        <header>
+            <img src="DCodes.png" alt="DCODES Logo" width="150" height="150">
+        </header>
+        <main>
+            <h1>Welcome to DCODES</h1>
+            <p>DCODES is a platform where you can find various projects and resources related to programming and technology.</p>
+            <h3>Projects:</h3>
+            <ol>
+                <li><a href=C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Index.html text="Red">Calculator</a></li>
+                <li><a href="C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Snake.html" text="red">Snake Game</a></li>
+                <li><a href="C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\EncryptionOnWeb.html" text="red">Encryption-Decryption</a></li>
+                <li><a href='C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Searchpy.html' text="red">Search For File Explorer</a></li>
+            </ol>
+            <h3>About Us:</h3>
+            <p>DCODES is dedicated to providing educational resources and projects that help individuals learn and grow in the field of programming. Our goal is to make coding accessible and enjoyable for everyone.</p>
+            <h3>Fill a form and help us understand what better can we do!</h3>
+            <p><a href="C:\Users\Dhruv\foldernew\formfordcodes.html">Click here to fill the form</a></p>
+        </main>
+        <footer>
+            <p>&copy; 2024 DCODES. All rights reserved.</p>
+            <p>Contact us at: <a href="mailto:dhrsha2006@gmail.com">here</a>
+        </footer>
     </body>
 </html>
