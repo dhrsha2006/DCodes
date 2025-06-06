@@ -36,15 +36,15 @@
             <p>DCODES is a platform where you can find various projects and resources related to programming and technology.</p>
             <h3>Projects:</h3>
             <ol>
-                <li><a href=C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Index.html text="Red">Calculator</a></li>
-                <li><a href="C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Snake.html" text="red">Snake Game</a></li>
-                <li><a href="C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\EncryptionOnWeb.html" text="red">Encryption-Decryption</a></li>
-                <li><a href='C:\Users\Dhruv\PycharmProjects\PyCalculator(HTML)\Searchpy.html' text="red">Search For File Explorer</a></li>
+                <li><a href=Index.html text="Red">Calculator</a></li>
+                <li><a href="Snake.html" text="red">Snake Game</a></li>
+                <li><a href="EncryptionOnWeb.html" text="red">Encryption-Decryption</a></li>
+                <li><a href='Searchpy.html' text="red">Search For File Explorer</a></li>
             </ol>
             <h3>About Us:</h3>
             <p>DCODES is dedicated to providing educational resources and projects that help individuals learn and grow in the field of programming. Our goal is to make coding accessible and enjoyable for everyone.</p>
             <h3>Fill a form and help us understand what better can we do!</h3>
-            <p><a href="C:\Users\Dhruv\foldernew\formfordcodes.html">Click here to fill the form</a></p>
+            <p><a href="formfordcodes.html">Click here to fill the form</a></p>
         </main>
         <footer>
             <p>&copy; 2024 DCODES. All rights reserved.</p>
